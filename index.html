@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
 
 <head>
     <title>Time for Brainstorming</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
     <meta name="description" content="Meeting">
 </head>
@@ -11,100 +11,108 @@
 
 <body>
     <main>
+        <div>
         <header>Meeting Summary</header>
+        </div>
+        <div class="flex-container">
+            <h1>Brainstorming</h1>
+            <h2>2022-10-07</h2>
+            <section>
+                <details>
+                    <summary>We will gain money</summary>
+                    <p>We all will get a 10% raise</p>
+                </details>
+                <h3>Agenda</h3>
+                <nav>
+                    <a href="/">Agenda 1 detail</a> |
+                    <a href="/" target="_blank">Agenda 2 detail</a> |
+                    <a href="/">Agenda 3 detial</a> |
+                    <a href="/">Agenda 4 detail</a>
+                </nav>
+                <div class="grid-container">
+                    <div class="attending grid-item">
+                        <label class=" label1">People attending</label>
+                        <ol>
 
-        <h1>Brainstorming</h1>
-        <h2>2022-10-07</h2>
-        <section>
-            <details>
-                <summary>We will gain money</summary>
-                <p>We all will get a 10% raise</p>
-            </details>
-            <h3>Agenda</h3>
-            <nav>
-                <a href="/">Agenda 1 detail</a> |
-                <a href="/">Agenda 2 detail</a> |
-                <a href="/">Agenda 3 detial</a> |
-                <a href="/">Agenda 4 detail</a>
-            </nav>
-            <div>
-                <label>People attending</label>
-                <ol>
+                            <li>Kwangyun</li>
+                            <li>Teddy</li>
+                            <li>Shinik</li>
+                        </ol>
+                    </div>
 
-                    <li>Kwangyun</li>
-                    <li>Teddy</li>
-                    <li>Shinik</li>
-                </ol>
-            </div>
-            <div>
-                <label>Things left</label>
-                <ul>
-                    <li>More coding</li>
-                    <li>Even more coding</li>
-                    <li>Even more coding</li>
-                </ul>
-            </div>
-            <p>These <a>things</a> are <b>new</b> to the <em>Entire</em> buisness </p>
-            <hr>
-            <p>We<br>are going to <i>pay</i> everyone with more<strong>money</strong></p>
-            <img src="doc.JPEG" alt="myPic">
-            <div>
-                <label>Our meeting recording</label>
-                <audio src="audio.m4a" controls></audio>
-                <label>Our <span>meeting video</span></label>
-                <video width="320" height="240" controls>
-                    <source src="video.mp4" type=video/ogg>
-                    <source src="video.mp4" type=video/mp4>
-                </video>
-            </div>
+                    <div class="thingsLeft grid-item">
+                        <label class="label2">Things left</label>
+                        <ul>
+                            <li>More coding</li>
+                            <li>Even more coding</li>
+                            <li>Even more coding</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="flexCont">
+                        <div>
+                         <p> To start of we are one the best Companies. So please hang tight for more information.</p>   
+                        </div>
+                        <p>These <a>things</a> are <b>new</b> to the <em>Entire</em> buisness </p>
+                        <hr>
+                        <p id="paragraph">We<br>are going to <i>pay</i> everyone with more<strong>money</strong></p>
+                        <div class="myPic">
+                            <img src="doc.JPEG" alt="myPic">
+                        </div>
 
-            <form>
-                <input type="text">
-                <input type="radio">
-                <input type="checkbox">
-                <input type="date">
-                <input type="button" value="submit">
-                <label for="story">Tell us your comment:</label>
+                        <div class="meeting">
+                            <label>Our meeting recording</label>
+                            <audio src="audio.m4a" controls></audio>
+                            <label>Our <span>meeting video</span></label>
+                            <video width="320" height="240" controls>
+                                <source src="video.mp4" type=video/ogg>
+                                <source src="video.mp4" type=video/mp4>
+                            </video>
+                        </div>
 
-                <textarea id="story" name="story" rows="5" cols="33">
+                        <form>
+                            <input type="text">
+                            <input type="radio">
+                            <input type="checkbox">
+                            <input type="date">
+                            <input type="button" value="submit">
+                            <label for="story">Tell us your comment:</label>
+
+                            <textarea id="story" name="story" rows="5" cols="33">
 It was a dark and stormy night...
 </textarea>
 
-            </form>
-            <label for="ice-cream-choice">Choose a flavor:</label>
-            <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+                        </form>
+                        <label for="ice-cream-choice">Choose a flavor:</label>
+                        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
 
-            <datalist id="ice-cream-flavors">
-                <option value="Chocolate">
-                <option value="Coconut">
-                <option value="Mint">
-                <option value="Strawberry">
-                <option value="Vanilla">
-            </datalist>
-            <form action="/action_page.php" id="carform">
-                <label for="fname">Firstname:</label>
-                <input type="text" id="fname" name="fname">
-                <input type="submit">
-              </form>
-              <br>
-              
-              <label for="cars">Choose a feeling:</label>
-              <select id="cars" name="carlist" form="carform">
-                <option value="volvo">Happy</option>
-                <option value="saab">Sad</option>
-                <option value="opel">Great</option>
-                <option value="audi">Depressed</option>
-              </select>
+                        <datalist id="ice-cream-flavors">
+                            <option value="Chocolate">
+                            <option value="Coconut">
+                            <option value="Mint">
+                            <option value="Strawberry">
+                            <option value="Vanilla">
+                        </datalist>
+                        <form action="/action_page.php" id="carform">
+                            <label for="fname">Firstname:</label>
+                            <input type="text" id="fname" name="fname">
+                            <input type="submit">
+                        </form>
+                        <br>
 
-        </section>
-        <footer>
-            <p>Author: Kwagnyun</p>
+                        <label for="cars">Choose a feeling:</label>
+                        <select id="cars" name="carlist" form="carform">
+                            <option value="volvo">Happy</option>
+                            <option value="saab">Sad</option>
+                            <option value="opel">Great</option>
+                            <option value="audi">Depressed</option>
+                        </select>
 
-        </footer>
+            </section>
+            <footer>
+                <p>Author: Kwagnyun</p>
+
+            </footer>
     </main>
 </body>
-
-
-
-
-</html>
