@@ -1,0 +1,140 @@
+*THIS IS MY CSS*/ 
+header{
+    color:#00FA9A;
+    font-size: 50px;
+    display: inline-block;
+
+
+}
+div ~ p{
+    color: black;
+}
+div +p{
+    font-weight: bold;
+}
+div > header{
+    font-weight: bolder;
+}
+*{
+    color: blueviolet;
+}
+a[target] {
+    background-color: white;
+  }
+div a{
+    color:black
+}
+#paragraph{
+    background-color: lightpink;
+    border-radius: 20px;
+}
+
+
+body{
+    font-family: "Sofia", sans-serif;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: lavenderblush;
+    padding: 10px;
+}
+.grid-item{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+
+  font-size: 30px;
+  text-align: center;
+}
+.flexCont{
+    display: flex;
+}
+.one{
+    flex-direction: row;
+}
+.two{
+    flex: auto;
+}
+
+.attending{
+    font-size: 20px;
+    background-color: pink;
+    border-style: solid;
+    border-color: coral;
+    border-width: thin;
+    border-radius: 20px;
+    height: 200px;
+    width: 50%;
+    max-width: 200px;
+
+}
+h1{
+    background-color: rgb(124,252,0);
+    width: 300px;
+    font-size: 3em;
+    margin-top: 1em;
+    height:50px
+
+
+}
+h2{
+    color:hsl(300, 76%, 72%);
+    font-size: 1cm;
+}
+h3{
+    color: red;
+    font-size: 20pt;
+    margin: auto
+
+
+
+}
+p{
+    font-size: 2vw;
+    font-size: 2vh;
+    /*margin short*/
+    margin: 25px 50px 75px 100px;
+    padding-top: 50px;
+
+}
+.meeting{
+    padding: 4px 5px 2px 3px; 
+    background-color: skyblue;
+    position: static;
+    max-width: 350px;
+    min-width: 350px;
+
+}
+.thingsLeft {
+    color: red;
+    text-decoration: green wavy underline;
+    text-align:left;
+    position:relative;
+    background-color: lightsalmon;
+    border-radius: 20px;
+    min-width: 150px;
+    max-width: 150px;
+}
+img{
+    height:300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: red;
+}
+.meeting:hover {
+    background-color: yellow;
+  }
+.thingsLeft:active {
+    background-color: white;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
